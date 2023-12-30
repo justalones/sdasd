@@ -369,6 +369,67 @@ Home:addToggle("MISSILE TOILET", function(value)
     end
 end)
 
+local isToggleOn = false
+
+Home:addToggle("POLICE MAN TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_1",
+                [3] = 1,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_1",
+                [3] = 2,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_1",
+                [3] = 3,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_1",
+                [3] = 4,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_1",
+                [3] = 5,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+
+
 local Home = UI:addPage("AUTO HATCH",4,true,6)
 
 Home:addLabel("AUTO FARM SECTION","Script was Created By Nameless Scritps")
