@@ -353,6 +353,8 @@ Home:addToggle("MISSILE TOILET", function(value)
     if isToggleOn then
         -- Start the loop
         while isToggleOn do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-675.399231, 769.571045, 686.168823, 0.987795413, 5.42001395e-08, 0.15575707, -6.5635497e-08, 1, 6.82749288e-08, -0.15575707, -7.76648506e-08, 0.987795413)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-675.399231, 769.571045, 686.168823, 0.987795413, 5.42001395e-08, 0.15575707, -6.5635497e-08, 1, 6.82749288e-08, -0.15575707, -7.76648506e-08, 0.987795413)
             local args = {
                 [1] = "Area_1",
                 [2] = "Boss",
