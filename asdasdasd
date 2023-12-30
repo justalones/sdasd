@@ -427,6 +427,458 @@ Home:addToggle("POLICE MAN TOILET", function(value)
     end
 end)
 
+local isToggleOn = false
+
+Home:addToggle("ROBBER TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_2",
+                [3] = 1,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_2",
+                [3] = 2,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_2",
+                [3] = 3,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_2",
+                [3] = 4,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_2",
+                [3] = 5,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("ARMED POLICE TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_3",
+                [3] = 1,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_3",
+                [3] = 2,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_3",
+                [3] = 3,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_3",
+                [3] = 4,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_3",
+                [3] = 5,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("CAMOFLOGE TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_4",
+                [3] = 1,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_4",
+                [3] = 2,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_4",
+                [3] = 3,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_4",
+                [3] = 4,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_2",
+                [2] = "Batch_4",
+                [3] = 5,
+                [4] = workspace.Areas.Area_2.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("COMMANDER TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_2",
+                [2] = "Boss",
+                [3] = 1,
+                [4] = workspace.Areas.Area_2.Enemies.Boss.Enemy_5
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("SAWTOOTH TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_1",
+                [3] = 1,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_1",
+                [3] = 2,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_1",
+                [3] = 3,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_1",
+                [3] = 4,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_1",
+                [3] = 5,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_1.Enemy_1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("SUPER SAWTOOTH TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_2",
+                [3] = 1,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_2",
+                [3] = 2,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_2",
+                [3] = 3,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_2",
+                [3] = 4,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_2",
+                [3] = 5,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_2.Enemy_2
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("PROPELLER TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_3",
+                [3] = 1,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_3",
+                [3] = 2,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_3",
+                [3] = 3,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_3",
+                [3] = 4,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_3",
+                [3] = 5,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_3.Enemy_3
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("SUPER PROPELLER TOILET", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_4",
+                [3] = 1,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_4",
+                [3] = 2,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_4",
+                [3] = 3,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_4",
+                [3] = 4,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+
+            local args = {
+                [1] = "Area_3",
+                [2] = "Batch_4",
+                [3] = 5,
+                [4] = workspace.Areas.Area_3.Enemies.Batch_4.Enemy_4
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+
+local isToggleOn = false
+
+Home:addToggle("WAR MACHINE", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Area_3",
+                [2] = "Boss",
+                [3] = 1,
+                [4] = workspace.Areas.Area_3.Enemies.Boss.Enemy_5
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
 local Home = UI:addPage("AUTO HATCH",4,true,6)
 
 Home:addLabel("AUTO FARM SECTION","Script was Created By Nameless Scritps")
@@ -511,6 +963,202 @@ Home:addToggle("WIN 5000", function(value)
     end
 end)
 
+local isToggleOn = false
+
+Home:addToggle("WIN 30000", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Egg_2_2",
+                [2] = 1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EggHatchService.RE.Hatch:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("WIN 150000", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Egg_2_3",
+                [2] = 1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EggHatchService.RE.Hatch:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("WIN 3M", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Egg_3_1",
+                [2] = 1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EggHatchService.RE.Hatch:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("WIN 12M", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Egg_3_2",
+                [2] = 1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EggHatchService.RE.Hatch:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("WIN 100M", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Egg_3_3",
+                [2] = 1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EggHatchService.RE.Hatch:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local Home = UI:addPage("AUTO UPGRADE",5,true,6)
+
+local isToggleOn = false
+
+Home:addToggle("DAMAGE", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Damage"
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.UpgradeService.RE.Upgrade:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("WINS", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Wins"
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.UpgradeService.RE.Upgrade:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("DIAMONDS", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Diamonds"
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.UpgradeService.RE.Upgrade:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("LUCK", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Luck"
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.UpgradeService.RE.Upgrade:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("MOVEMENT SPEED", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "MoveSpeed"
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.UpgradeService.RE.Upgrade:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
 
 -- Just an example of how you would actually use it i guess
 
