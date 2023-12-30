@@ -114,6 +114,7 @@ Home:addToggle("ARMED POLICE TOILET", function(value)
             
             game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
             
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-675.385132, 769.571045, 842.545959, 0.999715984, -3.73241633e-08, -0.0238314979, 3.76189071e-08, 1, 1.19194841e-08, 0.0238314979, -1.28126141e-08, 0.999715984)
             wait()  -- Adjust the wait time as needed
         end
     end
@@ -218,7 +219,7 @@ Home:addToggle("HAT TOILET", function(value)
             
             game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
 
-            
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-675.385132, 769.571045, 842.545959, 0.999715984, -3.73241633e-08, -0.0238314979, 3.76189071e-08, 1, 1.19194841e-08, 0.0238314979, -1.28126141e-08, 0.999715984)
             wait()  -- Adjust the wait time as needed
         end
     end
@@ -277,6 +278,8 @@ Home:addToggle("DJ TOILET", function(value)
             }
             
             game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-698.986206, 769.285034, 833.376953, 0.998736501, -4.37516938e-08, -0.0502538383, 4.12740988e-08, 1, -5.03393878e-08, 0.0502538383, 4.82015992e-08, 0.998736501)
             wait()  -- Adjust the wait time as needed
         end
     end
@@ -335,6 +338,7 @@ Home:addToggle("JET TOILET", function(value)
             }
             
             game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-654.436035, 769.285034, 836.671265, 0.998866796, 1.64973795e-08, 0.0475933701, -1.83225968e-08, 1, 3.79139919e-08, -0.0475933701, -3.87430639e-08, 0.998866796)
             wait()  -- Adjust the wait time as needed
         end
     end
@@ -357,6 +361,7 @@ Home:addToggle("MISSILE TOILET", function(value)
             }
             
             game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EnemyService.RE.HitEnemy:FireServer(unpack(args))            
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-675.399231, 769.571045, 686.168823, 0.987795413, 5.42001395e-08, 0.15575707, -6.5635497e-08, 1, 6.82749288e-08, -0.15575707, -7.76648506e-08, 0.987795413)
             wait()  -- Adjust the wait time as needed
         end
     end
@@ -409,6 +414,26 @@ end)
 local isToggleOn = false
 
 Home:addToggle("WIN 300", function(value)
+    isToggleOn = value
+    print("Toggle is now:", isToggleOn)
+    
+    if isToggleOn then
+        -- Start the loop
+        while isToggleOn do
+            local args = {
+                [1] = "Egg_1_3",
+                [2] = 1
+            }
+            
+            game:GetService("ReplicatedStorage").Packages._Index:FindFirstChild("sleitnick_knit@1.5.1").knit.Services.EggHatchService.RE.Hatch:FireServer(unpack(args))            
+            wait()  -- Adjust the wait time as needed
+        end
+    end
+end)
+
+local isToggleOn = false
+
+Home:addToggle("WIN 5000", function(value)
     isToggleOn = value
     print("Toggle is now:", isToggleOn)
     
